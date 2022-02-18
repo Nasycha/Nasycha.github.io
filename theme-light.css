@@ -1,0 +1,87 @@
+.body{
+    background-color: #f3f1f1;
+}
+.theme {
+    box-shadow: 0 0 10px rgba(39,38,40,0.4);
+}
+.header:before{
+    background-color: #007765;
+}
+.header_link{
+    color: #FFFFFF;
+}
+.hello{
+    background-color: #eeeeee;
+}
+
+.img1 {
+    color: white;
+}
+.hello {
+    color: #007765;
+    
+}
+.text {
+    background-color:#eeeeee;
+    color: #333333;
+} 
+.text_3 {
+    color: #000000;
+}  
+.team_hobbies {
+    background: #EEEEEE;
+}
+.text_2 {
+    color: #007765;
+}
+.about_hobbies{
+    color: #000000;
+}
+.team {
+    background: #EEEEEE;
+}
+.team_zag {
+    color: #007765;
+}
+.team_text{
+    color: #000000;
+}
+.end {
+    color: #000000;
+}
+.team_text a{
+    color: #064e43;
+}
+.end {
+background: #333333;
+}
+.end_text {
+color: #FFFFFF;
+}
+
+  @media (max-width:767px) {
+      
+      .header_burger span{
+          background-color: #FFFFFF;
+      }
+      .header_burger:before,
+      .header_burger:after{
+        background-color: #FFFFFF;
+      }
+      .header_burger.active span{
+          background-color: peru;
+      }
+      .header_menu {
+          background-color: #222426;
+      }
+      
+  }
+
+.change-theme[data-theme='dark']{
+    display: block;
+}
+  
+.change-theme[data-theme='light']{
+    display: none;
+}
+  
