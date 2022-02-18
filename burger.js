@@ -1,6 +1,10 @@
-$(document).ready(function(){
-    $('.header_burger').click(function(event) {
-        $('.headrer_burger,.header_menu').toggleClass('active');
-        $('body').toggleClass('lock');
-    });
-});
+const header = document.querySelector('.header_burger')
+header.addEventListener('click', () => {
+  const menus = document.querySelectorAll('.header_burger,.header_menu')
+  for (const menu of menus) {
+    menu.classList.toggle('active')
+  }
+
+  const body = document.querySelector('body')
+  body.classList.toggle('lock')
+})
